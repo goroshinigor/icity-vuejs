@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <title>icity</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <script src="js/script.js"></script>
+  <meta name="viewport" content="width=device-width">
+ </head>
+ <body> 
+<div id="color">
+<div class="header">
+ <div class="container">
+<!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+<input id="toggle" type="checkbox">
+
+<!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+
+<!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+<label class="toggle-container" for="toggle">
+<!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+<span class="button button-toggle"></span>
+</label>
+
+<!-- Навигация -->
+<nav class="nav">
+<a rel="nofollow" rel="noreferrer" class="nav-item" href="">Главная</a>
+<a rel="nofollow" rel="noreferrer" class="nav-item" href="">УСЛУГИ</a>
+<a rel="nofollow" rel="noreferrer" class="nav-item" href="">ПОРТФОЛИО</a>
+<a rel="nofollow" rel="noreferrer" class="nav-item" href="">О НАС</a>
+<a rel="nofollow" rel="noreferrer" class="nav-item" href="">Контакты</a>
+</nav>
+</div>
+</div>
+ </body>
+</html>
