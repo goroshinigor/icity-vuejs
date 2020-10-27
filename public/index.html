@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="ru">
+ <head>
+  <title>icity</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <script src="js/script.js"></script>
+  <meta name="viewport" content="width=device-width">
+ </head>
+ <body class="color">
+ 
+ <div class="hamburger-menu">
+    <input id="menu_toggle" type="checkbox" />
+    <label class="menu_btn" for="menu_toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu_box">
+      <li><a class="menu_item" href="#">ГЛАВНАЯ</a></li>
+			<li><a class="menu_item" href="#">УСЛУГИ</a></li>
+			<li><a class="menu_item" href="#">ПОРТФОЛИО</a></li>
+			<li><a class="menu_item" href="#">О НАС</a></li>
+			<li><a class="menu_item" href="#">КОНТАКТЫ</a></li>
+    </ul>
+  </div>
+ 
+ </body>
 </html>
